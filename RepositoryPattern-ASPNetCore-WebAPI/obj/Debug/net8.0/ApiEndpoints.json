@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "RepositoryPattern_ASPNetCore_WebAPI.Controllersl.EmployeeController",
+    "Method": "AddEmployeeAsync",
+    "RelativePath": "v1/employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RepositoryPattern_ASPNetCore_WebAPI.Dto.EmployeeCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RepositoryPattern_ASPNetCore_WebAPI.Controllersl.EmployeeController",
+    "Method": "GetAllEmployeeAsync",
+    "RelativePath": "v1/employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RepositoryPattern_ASPNetCore_WebAPI.Dto.EmployeeDto, RepositoryPattern-ASPNetCore-WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepositoryPattern_ASPNetCore_WebAPI.Controllersl.EmployeeController",
+    "Method": "UpdateEmployeeAsync",
+    "RelativePath": "v1/employee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RepositoryPattern_ASPNetCore_WebAPI.Dto.EmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RepositoryPattern_ASPNetCore_WebAPI.Controllersl.EmployeeController",
+    "Method": "GetAllAsync",
+    "RelativePath": "v1/employee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RepositoryPattern_ASPNetCore_WebAPI.Dto.EmployeeDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RepositoryPattern_ASPNetCore_WebAPI.Controllersl.EmployeeController",
+    "Method": "DeleteUserAsync",
+    "RelativePath": "v1/employee/{employeeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
